@@ -38,8 +38,8 @@ backgroundPosition: "center center",
            <button className='banner_button'>My List</button>
            </div>
            <h1 className='banner_description'>
-               {movie?.overview}
-           {/* {truncate(movie?.overview, 150)} */}
+               {/* {movie?.overview} */}
+           {truncate(movie?.overview, 150)}
            </h1>
            <div className='banner--fadeBottom'/></div>
       </header>
